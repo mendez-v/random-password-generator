@@ -23,6 +23,7 @@ generateBtn.addEventListener("click", () => {
   }
   removeAttr(newBtn)
   setAttr(generateBtn)
+  newBtn.focus()
 })
 
 newBtn.addEventListener("click", () => {
